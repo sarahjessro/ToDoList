@@ -1,0 +1,55 @@
+.todo-background {
+    background-color: #ffffff;
+        background-image: url("https://www.transparenttextures.com/patterns/dark-dot.png");
+        /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    height: 600px;
+    width: 450px;
+    border-radius: 3px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.title {
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
+    
+}
+
+body {
+    background-color: cadetblue;
+}
+
+.footer {
+    font-family: "Raleway", sans-serif;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.listItem {
+    font-family: "Raleway", sans-serif;
+        margin: auto;
+    
+
+}
+.addBtn {
+    background-color: cadetblue;
+    padding: 10px;
+    font-family: "Raleway", sans-serif;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+ul, li {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+}
+
+input {
+    width:250px;
+    height: 30px;
+}
